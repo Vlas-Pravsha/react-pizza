@@ -3,8 +3,7 @@ import Categories from "../components/Categories";
 import Sort from "../components/Sort";
 import PizzaBlock from "../components/PizzaBlock";
 import Skeleton from "../components/PizzaBlock/Skeleton";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Home = () => {
   const [items, setItems] = useState([]);
@@ -20,7 +19,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="container">
+    <div className="  container">
       <div className="content__top">
         <Categories />
         <Sort />
