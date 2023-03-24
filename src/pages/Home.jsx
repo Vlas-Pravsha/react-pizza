@@ -37,14 +37,14 @@ const Home = () => {
 
   return (
     <div className="  container">
-      <div className="content__top">
+      <div className=" content__top">
         <Categories
           value={categoryId}
           onChangeCategory={(i) => setCategoryId(i)}
         />
         <Sort value={sortType} onChangeSort={(i) => setSortType(i)} />
       </div>
-      <h2 className="content__title">Все пиццы</h2>
+      <h2 className="content__title">Все пиццьлы</h2>
       <div className="content__items">{isLoading ? skeletons : pizzas}</div>
     </div>
   );
