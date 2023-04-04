@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <div className="  container">
-      <div className=" content__top">
+      <div className=" content__top ">
         <Categories
           value={categoryId}
           onChangeCategory={(i) => setCategoryId(i)}
