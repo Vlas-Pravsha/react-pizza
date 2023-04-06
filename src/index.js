@@ -8,6 +8,8 @@ import {
   Link,
   BrowserRouter,
 } from "react-router-dom";
+import { store } from "./redux/store";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
